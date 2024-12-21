@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: "inter";
+}
+.header-aside{
+    background-color: #A182A1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.logo-img .korzinaa{
+    z-index:10;
+}
+.menu li{
+    display: inline-block;
+    position: relative;
+    justify-content: space-around;
+    padding-left: 0px;
+    margin: 0 25px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.menu a:hover{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+li{
+    list-style-type: none;
+}
+
+.korzina{
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+}
+.korzina:hover{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.header-bgr{
+    background-image:url(images/header.jpg);
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-weight: 300;
+}
+.glavn{
+    padding-right: 0px;
+}
+h2{
+    font-weight: 300;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+    width: 40%;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.existing-content {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.box {
+    width: 350px; 
+    height: 100px; 
+    background-color: pink; 
+    margin: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; 
+}
+
+.box a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+}
+
+
+.our-hits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.cards-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goods-card{
+    width: 375px;
+    height: 555px;
+    display: block;
+    text-align: center;
+    margin-left: 85px;
+    margin-right: 104px;
+}
+img.goods-card{
+    width: 307px;
+    height: 353px;
+    margin:0;
+}
+.goods-card-name{
+    font-size: 30px;
+    height: 60px;
+}
+.rectangle {
+    background-color: #eeddd0; 
+    padding: 50px; 
+    border-radius: 10px; 
+    width: 1100px;
+    height: 100px;
+    margin: auto; 
+    text-align: center; 
+    margin-bottom: 40px;
+}
+.rectangle_contact {
+    background-color: #808080; 
+    padding: 10px;
+    margin: 0; 
+    text-align: center; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.rectangle_contact p {
+    margin: 0; 
+    color: rgb(0, 0, 0); 
+    font-size: 20px;
+}
+.kont{
+    text-align: center;
+}
+.kontact{
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 3%;
+}
+.kontflex{
+    text-align: center;
+    margin: 5% auto;
+    padding: 10px;
+    padding-right: 40px;
+}
+.my-button {
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 9px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+.my-button:hover {
+    background-color: #8c8e6e; 
+    transform: scale(1.05); 
+}
+
+img {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.loaded {
+    opacity: 1;
+}
+
+
+
+#subscribeBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+}
+
+button {
+    background-color: #e1d7bb; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px; 
+}
+
+button:hover {
+    background-color: #e5c19b; 
+}
+
+.popup, .thank-you-popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content, .thank-you-popup-content {
+    background-color: #fff; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .centered-message {
+    text-align: center; 
+    padding: 40px;
+}
+#orderForm {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

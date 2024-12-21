@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>главная</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>ы
+        <div class="header-aside">
+            <img src="images/logo.png" alt="логотип" class="logo-img">
+            <nav class="menu">
+                <ul>
+                    <li class="glavn"><a href="#main">Главная</a></li>
+                    <li><a href="flower.html">Авторские букеты</a></li>
+                    <li><a href="roze.html">Розы</a></li>
+                    <li><a href="#rectangle_contac">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+            <img onclick = "window.location.href = '/cart.html';" src="images/korzina.png" alt="korzina" class="korzina">
+            </a>
+        </div>
+        <div class="header-bgr">
+            <h1><i>Mildness - Нежность в каждом лепестке!</i></h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box">
+            <a href="flower.html">АВТОРСКИЕ БУКЕТЫ</a>
+        </div>
+        <div class="box">
+            <a href="#rectangle_contac">КОНТАКТЫ</a>
+        </div>
+        <div class="box">
+            <a href="roze.html">БУКЕТЫ ИЗ РОЗ</a>
+        </div>
+    </div>
+    <div class = "our-hits">
+        <hr class="hr-line">
+        <h2><i>Наши хиты</i></h2>
+        <hr class="hr-line">
+    </div>
+    <div class = "cards-row">
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo1.png" alt="">
+            <p class = "goods-card-name">Букет из оранжевых роз</p>
+            <p>8990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo2.png" alt="">
+            <p class = "goods-card-name">Букет из ромашек</p>
+            <p>4990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo3.png" alt="">
+            <p class = "goods-card-name">Букет из кустовых роз</p>
+            <p>7990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+    </div>
+    <div class = "cards-row">
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo4.png" alt="">
+            <p class = "goods-card-name">Букет из ранункулюсов</p>
+            <p>3990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo5.png" alt="">
+            <p class = "goods-card-name">Букет из розовых роз</p>
+            <p>8990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+        <div class = "goods-card">
+            <img class = "goods-card" src="images/photo6.png" alt="">
+            <p class = "goods-card-name">Букет из желтых ранункулюсов</p>
+            <p>3990 руб.</p>
+            <button class="my-button">Купить</button>
+        </div>
+    </div>
+    <div class="rectangle">
+        <p>Mildness - идеальный выбор для цветов и подарков!
+            Мы предлагаем выбор красивых цветов, стильных букетов и оригинальных подарков, чтобы помочь вам выразить свои чувства и создать незабываемые моменты.</p>
+            
+        <p>У нас вы найдете цветы для любого случая - от романтических букетов до букетов для праздничных мероприятий. Мы тщательно отбираем свежие и красивые цветы.</p>
+    </div><div class="rectangle_contact" id="rectangle_contac">
+        <p class="kont">Контакты</p>
+        <div class="kontact">
+            <div class="kontflex">
+                <p>Адрес: <br> г. Кострома ул. Проспект мира д. 13/7</p> <br>
+                <p>+79536546767 <br>
+                mildness@yandex.ru</p>
+                <button id="subscribeBtn">Подписаться на рассылку</button>
+                <div class="popup" id="popup">
+                    <div class="popup-content">
+                        <span class="close-btn" id="closeBtn">&times;</span>
+                        <h2>Введите ваш Email</h2>
+                        <input type="email" id="emailInput" placeholder="Ваш Email" required>
+                        <button id="submitEmailBtn">Подписаться</button>
+                    </div>
+                </div>
+            
+                <div class="thank-you-popup" id="thankYouPopup">
+                    <div class="thank-you-popup-content">
+                        <span class="close-btn" id="thankYouCloseBtn">&times;</span>
+                        <h2>Спасибо за подписку!</h2>
+                        <p>Вы успешно подписались на нашу рассылку.</p>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A911bf710278cb0e1dd86efefb8abde7587487ba1cda4c0481d57922abec92427&amp;width=612&amp;height=281&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+
+
+
+
+    <main>
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript.js"></script>
+
+
+
+
+
+</body>
+</html>
